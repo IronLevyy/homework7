@@ -17,10 +17,10 @@ public class Main {
 
 //Задача 2
         count = 0;
-        do {
+        while (count<10){
             count++;
             System.out.print(count + " ");
-        } while (count < 10);
+        }
         System.out.print("\n");
         for (; count >= 1; count--) {
             System.out.print(count + " ");
